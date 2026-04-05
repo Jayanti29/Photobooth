@@ -1,132 +1,36 @@
-# Photobooth
-Gesture-controlled AI Photo Booth built with React, MediaPipe &amp; Web APIs  capture photos using hand gestures, apply filters, and generate aesthetic booth strips in real-time.
-# 🎥 Gesture Booth
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-An interactive **gesture-controlled photo booth web app** that lets users capture photos using **hand gestures** — no clicks, no buttons, just vibes ✋✨
+## Getting Started
 
-Built with **React, MediaPipe Hands, and modern web APIs**, this project creates a fun, touchless, and aesthetic photo booth experience.
-
----
-
-## 🚀 Features
-
-* 🤚 **Gesture Detection**
-
-  * Capture photos using hand gestures
-  * Real-time hand tracking with MediaPipe
-
-* 📸 **Photo Capture System**
-
-  * Auto countdown before capture
-  * Multiple shots per session
-  * Smooth camera integration
-
-* 🎨 **Aesthetic Filters**
-
-  * Vintage, Pink, B/W, Y2K styles
-  * Real-time filter preview
-
-* 🧵 **Photo Booth Strip Generator**
-
-  * Combines captured images into a strip
-  * Download-ready format
-
-* 💾 **Local Storage Support**
-
-  * Saves session data
-  * Reload and continue seamlessly
-
-* ⚡ **Modern UI/UX**
-
-  * Clean, Gen-Z inspired interface
-  * Smooth transitions and animations
-
----
-
-## 🛠️ Tech Stack
-
-* **Frontend:** React (Next.js)
-* **Gesture Detection:** MediaPipe Hands
-* **Camera Handling:** WebRTC
-* **State Management:** React Hooks
-* **Styling:** CSS / Tailwind (if used)
-
----
-
-## 📂 Project Structure
-
-```
-gesture-booth/
-│── app/
-│   ├── page.tsx
-│   ├── layout.tsx
-│
-│── components/
-│
-│── lib/
-│   ├── CapturePhoto.ts
-│   ├── gestureDetector.ts
-│   ├── useGestureDetection.ts
-│   ├── filters.ts
-│   ├── koreanBooth.ts
-│
-│── public/
-│── package.json
-```
-
----
-
-## ⚙️ Installation
+First, run the development server:
 
 ```bash
-git clone https://github.com/your-username/gesture-booth.git
-cd gesture-booth
-npm install
 npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
 ```
 
----
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## 🧠 How It Works
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-1. Webcam initializes using browser APIs
-2. MediaPipe detects hand landmarks in real-time
-3. Gestures are interpreted into actions (capture trigger)
-4. Images are processed with filters
-5. Final photo strip is generated and downloadable
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
----
+## Learn More
 
-## 🎯 Use Cases
+To learn more about Next.js, take a look at the following resources:
 
-* 📸 Virtual photo booths
-* 🎉 Event activations
-* 🧪 Gesture-based UI experiments
-* 🎨 Creative web projects
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
----
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## 🔮 Future Improvements
+## Deploy on Vercel
 
-* Face filters & AR effects
-* Gesture customization
-* Cloud storage support
-* Social media sharing integration
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
----
-
-## 🤝 Contributing
-
-Pull requests are welcome! Feel free to fork and improve.
-
----
-
-## ⭐ Show Your Support
-
-If you like this project, drop a ⭐ on the repo — it helps a lot!
-
----
-
-## 👤 Author
-
-Built with 💻 + ☕ + creativity
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
